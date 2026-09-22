@@ -1,0 +1,9 @@
+Indicateur,Valeur,Explication
+Total d'images,1032,"Nombre total de fichiers presents dans data/raw/, toutes classes confondues"
+Images corrompues,6,Fichiers impossibles a ouvrir ou a decoder correctement (Partie 2)
+Images quasi vides,4,"Images entierement noires, blanches ou avec tres peu de variation de pixels (Partie 3)"
+Images trop petites,13,Images dont la largeur ou la hauteur est inferieure a 64 pixels (Partie 4)
+Doublons,15,Groupes d'images ayant un contenu visuel strictement identique (Partie 6)
+Images grayscale,2,"Images en niveaux de gris, avec un seul canal de couleur (Partie 5)"
+Images RGBA,18,Images avec un canal de transparence en plus du RGB (Partie 5)
+Images mal classees,10,"Images placees dans un dossier de classe qui ne correspond pas a leur contenu reel, identifiees par controle visuel (Partie 7)"
